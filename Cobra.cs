@@ -17,7 +17,7 @@ class Cobra
             Console.Write("O");
         }
     }
-    public void Mover(ConsoleKey tecla)
+    public void Mover(ConsoleKey tecla, bool crescer)
     {
         // Pegar posição atual da cabeça (indiice 0)
         Ponto cabecaAtual = Lista_Pontos[0];
@@ -46,8 +46,11 @@ class Cobra
         Ponto novaCabeca = new Ponto(novoX, novoY);
         //Insere nova cabeça no começo da lista       
         Lista_Pontos.Insert(0, novaCabeca);
+        if (!crescer)
+        {
         //Remove a calda antiga para manter o tamanho
         Lista_Pontos.RemoveAt(Lista_Pontos.Count - 1);
+        }
 
     }
 }
