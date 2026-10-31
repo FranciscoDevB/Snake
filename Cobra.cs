@@ -1,15 +1,12 @@
 class Cobra
 {
-    public int Num;
-    public int PosX;
-    public int PosY;
     public List <Ponto> Lista_Pontos;
     public Cobra()
     {
         Lista_Pontos = new List<Ponto>();
-        Lista_Pontos.Add(new Ponto (7,5)); // cabeça
-        Lista_Pontos.Add(new Ponto(6,5)); // meio
-        Lista_Pontos.Add(new Ponto(5,5)); // cauda
+        Lista_Pontos.Add(new Ponto (20,10)); // cabeça
+        Lista_Pontos.Add(new Ponto(19,10)); // meio
+        Lista_Pontos.Add(new Ponto(18,10)); // cauda
     }
 
     public void Desenhar()

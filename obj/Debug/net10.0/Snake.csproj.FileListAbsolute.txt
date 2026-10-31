@@ -7,6 +7,7 @@ C:\Users\PC\OneDrive\Documentos\Área de Trabalho\Snake\obj\Debug\net10.0\Snake.
 C:\Users\PC\OneDrive\Documentos\Área de Trabalho\Snake\obj\Debug\net10.0\Snake.AssemblyInfoInputs.cache
 C:\Users\PC\OneDrive\Documentos\Área de Trabalho\Snake\obj\Debug\net10.0\Snake.AssemblyInfo.cs
 C:\Users\PC\OneDrive\Documentos\Área de Trabalho\Snake\obj\Debug\net10.0\Snake.csproj.CoreCompileInputs.cache
+C:\Users\PC\OneDrive\Documentos\Área de Trabalho\Snake\obj\Debug\net10.0\Snake.sourcelink.json
 C:\Users\PC\OneDrive\Documentos\Área de Trabalho\Snake\obj\Debug\net10.0\Snake.dll
 C:\Users\PC\OneDrive\Documentos\Área de Trabalho\Snake\obj\Debug\net10.0\refint\Snake.dll
 C:\Users\PC\OneDrive\Documentos\Área de Trabalho\Snake\obj\Debug\net10.0\Snake.pdb

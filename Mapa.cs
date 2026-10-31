@@ -3,14 +3,13 @@ using System.Security.Cryptography.X509Certificates;
 
 class Mapa
 {
-    public int Largura = 20;
-    public int Altura = 10;
+    public int Largura = 40;
+    public int Altura = 20;
     public Mapa(){
         CriaMapa();
     }
     public void CriaMapa()
-    {
-        Console.Clear();
+    {   
         for(int a =0; a<Altura; a++)
         {
             for(int l =0; l<Largura; l++)
@@ -22,7 +21,7 @@ class Mapa
                 else
                     Console.Write(" ");
             }
-             System.Console.WriteLine();
-        }
+            System.Console.WriteLine();
+        } 
     }
 }
